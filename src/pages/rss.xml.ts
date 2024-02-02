@@ -11,7 +11,7 @@ export async function get(context: AstroConfig) {
 
 	return rss({
 		title: 'The sndwch blog',
-		description: 'All sandwich news, All the time.',
+		description: 'All sandwich news. All the time.',
 		site: context.site,
 		items: blog.map((post) => {
 			return {
